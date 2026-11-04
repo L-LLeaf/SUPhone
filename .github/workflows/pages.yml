@@ -1,7 +1,9 @@
 name: Validate and deploy Pages
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+      - story/first-linear-empathy-draft
   workflow_dispatch:
 permissions:
   contents: read
@@ -27,6 +29,8 @@ jobs:
       - run: npm run story:test
       - run: npm run build
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - uses: actions/upload-pages-artifact@v4
         with:
           path: dist
