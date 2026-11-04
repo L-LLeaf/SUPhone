@@ -1,699 +1,805 @@
 {
   "scriptVersion": 1,
-  "id": "ui-test-phone-v2",
-  "title": "捡手机",
-  "description": "仅用于界面测试，不含剧情",
-  "revision": 2,
+  "id": "light-empathy-phone",
+  "title": "同频之间",
+  "description": "一部留下了生活痕迹的手机。故事中的私人聊天、日常经历与共感设定均为虚构；涉及现实人物时，不将虚构私生活当作真实信息。",
+  "revision": 1,
   "phone": {
-    "owner": "机主",
-    "date": "2026-10-25",
-    "time": "09:41",
-    "battery": 94,
+    "owner": "light",
+    "date": "2026-12-01",
+    "time": "08:00",
+    "battery": 99,
     "network": "5G",
-    "wallpaper": "apple-wwdc26"
+    "wallpaper": "sage",
+    "theme": "light"
   },
   "installedApps": [
-    "appstore",
-    {
-      "id": "wechat",
-      "name": "微信",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
-    {
-      "id": "douyin",
-      "name": "抖音",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
     "phone",
     "messages",
     "contacts",
     "photos",
-    {
-      "id": "camera",
-      "name": "相机",
-      "installed": true,
-      "visible": true,
-      "dock": true,
-      "folder": "",
-      "icon": ""
-    },
+    "camera",
     "safari",
     "notes",
     "calendar",
-    "mail",
     "clock",
     "reminders",
     "files",
     "music",
     "maps",
     "weather",
-    "wallet",
-    "health",
-    "find",
-    "calculator",
     "settings",
-    "qq",
+    "wechat",
     "weibo",
-    "redbook",
-    "bilibili",
-    "alipay",
-    "taobao",
-    "netease",
-    "delivery",
-    "forum",
-    "whatsapp",
-    "instagram",
-    "tiktok",
-    "twitter",
-    "telegram",
-    "discord",
-    "youtube",
-    "line",
-    "snapchat",
-    "facebook",
-    "messenger",
-    "reddit",
-    "spotify",
-    "netflix",
-    "pinterest",
-    "threads",
-    "kakao"
+    "redbook"
   ],
   "contacts": [
     {
-      "id": "test-contact",
-      "name": "测试联系人",
+      "id": "su",
+      "name": "苏新皓",
       "phone": "",
-      "bio": "这是一条测试内容。"
+      "bio": "微信联系人"
+    },
+    {
+      "id": "cheng",
+      "name": "阿澄",
+      "phone": "",
+      "bio": "朋友"
+    },
+    {
+      "id": "mom",
+      "name": "妈妈",
+      "phone": "",
+      "bio": "家人"
     }
   ],
   "chats": [
     {
-      "id": "test-chat-messages",
-      "app": "messages",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messages",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-wechat",
+      "id": "chat-su",
       "app": "wechat",
-      "title": "测试会话",
+      "title": "苏新皓",
       "participants": [
-        "owner",
-        "test-contact"
+        "su",
+        "owner"
       ],
       "messages": [
         {
-          "id": "test-message-wechat",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-qq",
-      "app": "qq",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-qq",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-whatsapp",
-      "app": "whatsapp",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-whatsapp",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-telegram",
-      "app": "telegram",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-telegram",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-discord",
-      "app": "discord",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-discord",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-line",
-      "app": "line",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-line",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-messenger",
-      "app": "messenger",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messenger",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-kakao",
-      "app": "kakao",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-kakao",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
+          "id": "wx-1130-01",
+          "title": "苏新皓",
+          "body": "刚才谢谢你。你手腕还好吗？",
+          "senderId": "su",
+          "time": "2026-11-30 19:24",
+          "read": true
         },
         {
-          "id": "test-reply-kakao",
-          "body": "这是一条测试回复。",
-          "senderId": "owner"
+          "id": "wx-1130-02",
+          "title": "苏新皓",
+          "body": "没事。你呢？我刚才也突然疼了一下。",
+          "senderId": "owner",
+          "time": "2026-11-30 19:26",
+          "read": true
+        },
+        {
+          "id": "wx-1130-03",
+          "title": "苏新皓",
+          "body": "不是碰到的那种疼。像是有人隔着很远，和我同时碰到了同一个地方。",
+          "senderId": "su",
+          "time": "2026-11-30 19:29",
+          "read": true
+        },
+        {
+          "id": "wx-1130-04",
+          "title": "苏新皓",
+          "body": "我本来以为是巧合。你也这么觉得吗？",
+          "senderId": "owner",
+          "time": "2026-11-30 19:32",
+          "read": true
+        },
+        {
+          "id": "wx-1201-01",
+          "title": "苏新皓",
+          "body": "早。你醒了吗？昨晚后来有没有再疼？",
+          "senderId": "su",
+          "time": "2026-12-01 07:56",
+          "read": false
+        },
+        {
+          "id": "wx-1201-02",
+          "title": "苏新皓",
+          "body": "我刚刚拿杯子的时候，右手腕突然像被轻轻拧了一下。你那边呢？",
+          "senderId": "su",
+          "time": "2026-12-01 09:14",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "wx-1201-03",
+          "title": "苏新皓",
+          "body": "我也有感觉。我记下时间了，看看是不是同一秒。",
+          "senderId": "owner",
+          "time": "2026-12-01 09:18",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "wx-photo-01",
+          "title": "苏新皓",
+          "body": "",
+          "senderId": "su",
+          "time": "2026-12-01 12:22",
+          "kind": "image",
+          "media": "",
+          "hidden": true,
+          "read": false,
+          "meta": {
+            "assetKey": "photo-01",
+            "linkedAlbumId": "album-photo-01"
+          }
+        },
+        {
+          "id": "wx-1202-01",
+          "title": "苏新皓",
+          "body": "今天练习到一半，突然觉得你那边应该也醒着。很奇怪，我居然开始习惯先问你。",
+          "senderId": "su",
+          "time": "2026-12-02 10:08",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "wx-1203-01",
+          "title": "苏新皓",
+          "body": "刚才那一下情绪来得很突然。我没有在想什么，但一下子很难受。你也感觉到了吗？",
+          "senderId": "su",
+          "time": "2026-12-03 22:41",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "wx-photo-02",
+          "title": "苏新皓",
+          "body": "",
+          "senderId": "su",
+          "time": "2026-12-04 18:16",
+          "kind": "image",
+          "media": "",
+          "hidden": true,
+          "read": false,
+          "meta": {
+            "assetKey": "photo-02",
+            "linkedAlbumId": "album-photo-02"
+          }
+        },
+        {
+          "id": "wx-1204-01",
+          "title": "苏新皓",
+          "body": "今天路上看到一只很笨的猫。拍得有点糊，还是想给你看。",
+          "senderId": "su",
+          "time": "2026-12-04 18:17",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "wx-1205-01",
+          "title": "苏新皓",
+          "body": "你今天怎么没说话？不是催你。只是看到好笑的东西，第一反应还是想发给你。",
+          "senderId": "su",
+          "time": "2026-12-05 20:03",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "wx-1206-01",
+          "title": "苏新皓",
+          "body": "如果有一天这种感觉突然没有了，我们是不是就不会再这样联系了？",
+          "senderId": "su",
+          "time": "2026-12-06 23:12",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "wx-1207-01",
+          "title": "苏新皓",
+          "body": "今天好像真的没有了。手腕不疼了，心里也安静了。谢谢你这几天一直认真听我说。以后也好好过自己的生活。",
+          "senderId": "su",
+          "time": "2026-12-07 21:06",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "wx-1207-02",
+          "title": "苏新皓",
+          "body": "嗯。你也是。",
+          "senderId": "owner",
+          "time": "2026-12-07 21:10",
+          "hidden": true,
+          "read": false
+        }
+      ]
+    },
+    {
+      "id": "chat-cheng",
+      "app": "wechat",
+      "title": "阿澄",
+      "participants": [
+        "cheng",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "wx-cheng-01",
+          "title": "阿澄",
+          "body": "你昨天不是说只是去买杯喝的吗，怎么回来以后一直在看手腕？",
+          "senderId": "cheng",
+          "time": "2026-11-30 22:08",
+          "read": true
+        },
+        {
+          "id": "wx-cheng-02",
+          "title": "阿澄",
+          "body": "算了，今天先睡。明天有事再跟我说。",
+          "senderId": "cheng",
+          "time": "2026-11-30 22:11",
+          "read": true
+        }
+      ]
+    },
+    {
+      "id": "sms-mom",
+      "app": "messages",
+      "title": "妈妈",
+      "participants": [
+        "mom",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "sms-mom-01",
+          "title": "妈妈",
+          "body": "到家了吗？外面下雨，记得带伞。",
+          "senderId": "mom",
+          "time": "2026-11-30 21:02",
+          "read": true
+        },
+        {
+          "id": "sms-mom-02",
+          "title": "妈妈",
+          "body": "早上起来记得吃点东西。",
+          "senderId": "mom",
+          "time": "2026-12-01 07:20",
+          "read": false
         }
       ]
     }
   ],
   "content": {
-    "phone": [
-      {
-        "id": "test-item-phone",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "contacts": [
-      {
-        "id": "test-item-contacts",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
     "photos": [
       {
-        "id": "test-item-photos",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "camera": [
+        "id": "album-photo-01",
+        "title": " ",
+        "body": "",
+        "kind": "image",
+        "media": "",
+        "time": "2026-11-30 19:17",
+        "sender": "light",
+        "folder": "相机胶卷",
+        "meta": {
+          "assetKey": "photo-01",
+          "caption": "初遇当天"
+        }
+      },
       {
-        "id": "test-item-camera",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "safari": [
+        "id": "album-photo-02",
+        "title": " ",
+        "body": "",
+        "kind": "image",
+        "media": "",
+        "time": "2026-11-30 19:42",
+        "sender": "light",
+        "folder": "相机胶卷",
+        "meta": {
+          "assetKey": "photo-02",
+          "caption": "夜路"
+        }
+      },
       {
-        "id": "test-item-safari",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "album-photo-03",
+        "title": " ",
+        "body": "",
+        "kind": "image",
+        "media": "",
+        "time": "2026-11-30 20:06",
+        "sender": "light",
+        "folder": "相机胶卷",
+        "meta": {
+          "assetKey": "photo-03",
+          "caption": "便利店窗边"
+        }
+      },
+      {
+        "id": "album-photo-04",
+        "title": " ",
+        "body": "",
+        "kind": "image",
+        "media": "",
+        "time": "2026-12-01 07:31",
+        "sender": "light",
+        "folder": "相机胶卷",
+        "meta": {
+          "assetKey": "photo-04",
+          "caption": "清晨"
+        }
+      },
+      {
+        "id": "album-photo-05",
+        "title": " ",
+        "body": "",
+        "kind": "image",
+        "media": "",
+        "time": "2026-12-04 18:16",
+        "sender": "light",
+        "folder": "相机胶卷",
+        "hidden": true,
+        "meta": {
+          "assetKey": "photo-05",
+          "caption": "后来收到的照片"
+        }
+      },
+      {
+        "id": "album-photo-06",
+        "title": " ",
+        "body": "",
+        "kind": "image",
+        "media": "",
+        "time": "2026-12-05 16:28",
+        "sender": "light",
+        "folder": "相机胶卷",
+        "hidden": true,
+        "meta": {
+          "assetKey": "photo-06",
+          "caption": "日常"
+        }
+      },
+      {
+        "id": "album-video-01",
+        "title": " ",
+        "body": "",
+        "kind": "video",
+        "media": "",
+        "time": "2026-12-05 16:30",
+        "sender": "light",
+        "folder": "相机胶卷",
+        "hidden": true,
+        "meta": {
+          "assetKey": "video-01",
+          "caption": "短视频"
+        }
       }
     ],
     "notes": [
       {
-        "id": "test-item-notes",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "note-first-meet",
+        "title": "昨天的事",
+        "body": "11 月 30 日，19:10 左右。\n在便利店门口第一次见到他。人群挤过来的时候，我的右手腕突然疼了一下。\n他几乎同时按住了自己的手腕。\n不是很像巧合，但现在还不能确定。",
+        "time": "2026-11-30 23:46",
+        "sender": "light",
+        "folder": "备忘录",
+        "read": true
+      },
+      {
+        "id": "note-wrist",
+        "title": "疼痛记录",
+        "body": "12 月 1 日\n09:14 — 右手腕突然出现短暂的扭痛。\n09:14 — 对方也说在同一时间感到相同位置不舒服。\n\n先记录，不急着下结论。",
+        "time": "2026-12-01 09:15",
+        "sender": "light",
+        "folder": "备忘录",
+        "hidden": true
+      },
+      {
+        "id": "note-voice",
+        "title": "关于那种感觉",
+        "body": "不是一直都能感觉到。\n平常只是各自过日子，只有疼痛、触碰，或者很强烈的情绪突然涌上来时，才会短暂地同步。\n越想压下去，好像反而越明显。",
+        "time": "2026-12-02 23:18",
+        "sender": "light",
+        "folder": "备忘录",
+        "hidden": true
+      },
+      {
+        "id": "note-day",
+        "title": "今天的碎片",
+        "body": "他发来一张照片，说拍得有点糊。\n我发现自己已经会在看到有趣的东西时，顺手想一句：这个可以发给他。",
+        "time": "2026-12-04 18:25",
+        "sender": "light",
+        "folder": "备忘录",
+        "hidden": true
       }
     ],
-    "calendar": [
+    "safari": [
       {
-        "id": "test-item-calendar",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "mail": [
+        "id": "search-01",
+        "title": "两个人会同时感觉到疼痛吗",
+        "body": "搜索记录。浏览过关于共感、镜像感觉与疼痛同步的科普讨论。没有找到能解释这件事的确定答案。",
+        "time": "2026-11-30 23:51",
+        "sender": "light",
+        "folder": "历史记录",
+        "meta": {
+          "url": "搜索记录"
+        }
+      },
       {
-        "id": "test-item-mail",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "clock": [
+        "id": "search-02",
+        "title": "突然手腕疼痛是什么原因",
+        "body": "搜索记录。看过常见的手腕劳损、姿势和轻微扭伤解释。",
+        "time": "2026-12-01 00:04",
+        "sender": "light",
+        "folder": "历史记录",
+        "meta": {
+          "url": "搜索记录"
+        }
+      },
       {
-        "id": "test-item-clock",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reminders": [
-      {
-        "id": "test-item-reminders",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "files": [
-      {
-        "id": "test-item-files",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "music": [
-      {
-        "id": "test-item-music",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "maps": [
-      {
-        "id": "test-item-maps",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weather": [
-      {
-        "id": "test-item-weather",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "wallet": [
-      {
-        "id": "test-item-wallet",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "health": [
-      {
-        "id": "test-item-health",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "find": [
-      {
-        "id": "test-item-find",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "calculator": [
-      {
-        "id": "test-item-calculator",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "settings": [
-      {
-        "id": "test-item-settings",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "search-03",
+        "title": "情绪共感是不是会有距离限制",
+        "body": "搜索记录。暂时没有找到可信的解释。",
+        "time": "2026-12-01 07:49",
+        "sender": "light",
+        "folder": "历史记录",
+        "meta": {
+          "url": "搜索记录"
+        }
       }
     ],
     "weibo": [
       {
-        "id": "test-item-weibo",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "redbook": [
-      {
-        "id": "test-item-redbook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "douyin": [
-      {
-        "id": "test-item-douyin",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "bilibili": [
-      {
-        "id": "test-item-bilibili",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "alipay": [
-      {
-        "id": "test-item-alipay",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "taobao": [
-      {
-        "id": "test-item-taobao",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netease": [
-      {
-        "id": "test-item-netease",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "delivery": [
-      {
-        "id": "test-item-delivery",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "forum": [
-      {
-        "id": "test-item-forum",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "instagram": [
-      {
-        "id": "test-item-instagram",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "tiktok": [
-      {
-        "id": "test-item-tiktok",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "twitter": [
-      {
-        "id": "test-item-twitter",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "youtube": [
-      {
-        "id": "test-item-youtube",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "snapchat": [
-      {
-        "id": "test-item-snapchat",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "facebook": [
-      {
-        "id": "test-item-facebook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reddit": [
-      {
-        "id": "test-item-reddit",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "spotify": [
-      {
-        "id": "test-item-spotify",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netflix": [
-      {
-        "id": "test-item-netflix",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "pinterest": [
-      {
-        "id": "test-item-pinterest",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "threads": [
-      {
-        "id": "test-item-threads",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      },
-      {
-        "id": "test-threads-message-1",
-        "title": "测试会话1",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人1",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-1",
-        "title": "测试动态1",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户1",
+        "id": "wb-01",
+        "title": "昨晚",
+        "body": "昨天遇到一件很难解释的事。先记下来，免得过几天又觉得是自己记错了。",
+        "time": "2026-11-30 23:58",
+        "sender": "light",
+        "kind": "post",
+        "folder": "我的微博",
         "meta": {
-          "activityType": "reply"
+          "ip": "北京"
         }
       },
       {
-        "id": "test-threads-message-2",
-        "title": "测试会话2",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人2",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-2",
-        "title": "测试动态2",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户2",
+        "id": "wb-02",
+        "title": "早",
+        "body": "醒来第一件事是确认昨天那个人有没有发消息。好像有点奇怪。",
+        "time": "2026-12-01 07:43",
+        "sender": "light",
+        "kind": "post",
+        "folder": "我的微博",
         "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-3",
-        "title": "测试会话3",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人3",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-3",
-        "title": "测试动态3",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户3",
-        "meta": {
-          "activityType": "reply"
+          "ip": "北京"
         }
       }
     ],
-    "appstore": [
+    "phone": [
       {
-        "id": "test-appstore",
-        "title": "测试内容",
-        "body": "这是一条测试内容。"
+        "id": "call-01",
+        "title": "苏新皓",
+        "body": "未接来电",
+        "time": "2026-11-30 19:34",
+        "sender": "苏新皓",
+        "kind": "call",
+        "meta": {
+          "status": "未接",
+          "number": ""
+        }
+      },
+      {
+        "id": "call-02",
+        "title": "苏新皓",
+        "body": "未接来电",
+        "time": "2026-11-30 19:36",
+        "sender": "苏新皓",
+        "kind": "call",
+        "meta": {
+          "status": "未接",
+          "number": ""
+        }
+      }
+    ],
+    "calendar": [
+      {
+        "id": "cal-01",
+        "title": "把疼痛时间记下来",
+        "body": "记录今天的身体感觉和发生时间。",
+        "time": "2026-12-01 09:00",
+        "sender": "light",
+        "kind": "event",
+        "meta": {
+          "location": "提醒"
+        }
       }
     ]
   },
   "variables": {},
-  "events": [],
-  "tests": []
+  "events": [
+    {
+      "id": "ev-01",
+      "label": "早晨的消息",
+      "type": "event",
+      "event": "read",
+      "target": "wx-1201-01",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "note-wrist",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "wx-1201-02",
+          "value": true
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "ev-02",
+      "label": "记录疼痛",
+      "type": "event",
+      "event": "read",
+      "target": "wx-1201-02",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "wx-1201-03",
+          "value": true
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "ev-03",
+      "label": "对照时间",
+      "type": "event",
+      "event": "read",
+      "target": "note-wrist",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "wx-1201-03",
+          "value": true
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "ev-04",
+      "label": "收到照片",
+      "type": "event",
+      "event": "read",
+      "target": "wx-1201-03",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "wx-photo-01",
+          "value": true
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "ev-05",
+      "label": "点开照片",
+      "type": "event",
+      "event": "read",
+      "target": "wx-photo-01",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "wx-1202-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "note-voice",
+          "value": true
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "ev-06",
+      "label": "理解共感",
+      "type": "event",
+      "event": "read",
+      "target": "note-voice",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "wx-1203-01",
+          "value": true
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "ev-07",
+      "label": "情绪同步",
+      "type": "event",
+      "event": "read",
+      "target": "wx-1203-01",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "wx-photo-02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "album-photo-05",
+          "value": true
+        },
+        {
+          "type": "note",
+          "key": "note-day",
+          "value": true
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "ev-08",
+      "label": "照片背后的日常",
+      "type": "event",
+      "event": "read",
+      "target": "wx-photo-02",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "wx-1204-01",
+          "value": true
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "ev-09",
+      "label": "分享日常",
+      "type": "event",
+      "event": "read",
+      "target": "wx-1204-01",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "note-day",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "wx-1205-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "album-photo-06",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "album-video-01",
+          "value": true
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "ev-10",
+      "label": "开始在意",
+      "type": "event",
+      "event": "read",
+      "target": "wx-1205-01",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "wx-1206-01",
+          "value": true
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "ev-11",
+      "label": "共感减弱",
+      "type": "event",
+      "event": "read",
+      "target": "wx-1206-01",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "wx-1207-01",
+          "value": true
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "ev-12",
+      "label": "故事落幕",
+      "type": "ending",
+      "event": "read",
+      "target": "wx-1207-01",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "ending",
+          "value": "余温"
+        }
+      ],
+      "next": []
+    }
+  ],
+  "tests": [
+    {
+      "name": "线性共感主线",
+      "steps": [
+        {
+          "event": "read",
+          "target": "wx-1201-01"
+        },
+        {
+          "event": "read",
+          "target": "wx-1201-02"
+        },
+        {
+          "event": "read",
+          "target": "note-wrist"
+        },
+        {
+          "event": "read",
+          "target": "wx-1201-03"
+        },
+        {
+          "event": "read",
+          "target": "wx-photo-01"
+        },
+        {
+          "event": "read",
+          "target": "note-voice"
+        },
+        {
+          "event": "read",
+          "target": "wx-1203-01"
+        },
+        {
+          "event": "read",
+          "target": "wx-photo-02"
+        },
+        {
+          "event": "read",
+          "target": "wx-1204-01"
+        },
+        {
+          "event": "read",
+          "target": "wx-1205-01"
+        },
+        {
+          "event": "read",
+          "target": "wx-1206-01"
+        },
+        {
+          "event": "read",
+          "target": "wx-1207-01"
+        }
+      ],
+      "ending": "余温",
+      "expectUnlocked": [
+        "note-wrist",
+        "wx-1201-02",
+        "wx-1201-03",
+        "wx-photo-01",
+        "wx-1202-01",
+        "note-voice",
+        "wx-1203-01",
+        "wx-photo-02",
+        "wx-1204-01",
+        "wx-1205-01",
+        "wx-1206-01",
+        "wx-1207-01"
+      ]
+    }
+  ]
 }
