@@ -3,7 +3,7 @@
   "id": "light-empathy-phone",
   "title": "同频之间",
   "description": "一部留下了生活痕迹的手机。故事中的私人聊天、日常经历与共感设定均为虚构；涉及现实人物时，不将虚构私生活当作真实信息。",
-  "revision": 2,
+  "revision": 3,
   "phone": {
     "owner": "light",
     "date": "2026-12-01",
@@ -217,6 +217,159 @@
           "time": "2026-12-07 21:10",
           "hidden": true,
           "read": false
+        },
+        {
+          "id": "wx-1202-02",
+          "title": "苏新皓",
+          "body": "你今天还疼吗？",
+          "senderId": "su",
+          "time": "2026-12-02 10:16",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "wx-1202-03",
+          "title": "苏新皓",
+          "body": "早上有一点，后来就没了。你呢？",
+          "senderId": "owner",
+          "time": "2026-12-02 10:19",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "wx-1202-04",
+          "title": "苏新皓",
+          "body": "我也是。好像不是一直连着，只有突然的时候才会。",
+          "senderId": "su",
+          "time": "2026-12-02 10:22",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "wx-1202-05",
+          "title": "苏新皓",
+          "body": "那我们先把时间记下来。至少能知道它什么时候出现。",
+          "senderId": "owner",
+          "time": "2026-12-02 10:25",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "wx-1203-02",
+          "title": "苏新皓",
+          "body": "今天有点烦。不是身体疼，是突然觉得什么都做不好。",
+          "senderId": "su",
+          "time": "2026-12-03 22:46",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "wx-1203-03",
+          "title": "苏新皓",
+          "body": "我刚刚也很低落，但我不知道是不是因为你。",
+          "senderId": "owner",
+          "time": "2026-12-03 22:49",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "wx-1203-04",
+          "title": "苏新皓",
+          "body": "如果真的是这样，那我以后心情不好是不是也会影响你？",
+          "senderId": "su",
+          "time": "2026-12-03 22:52",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "wx-1203-05",
+          "title": "苏新皓",
+          "body": "也可能只是我们刚好都累了。先别把所有事都怪到这件事上。",
+          "senderId": "owner",
+          "time": "2026-12-03 22:55",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "wx-1204-02",
+          "title": "苏新皓",
+          "body": "那只猫后来又出现了。我今天路过的时候它还在原地。",
+          "senderId": "su",
+          "time": "2026-12-04 18:21",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "wx-1204-03",
+          "title": "苏新皓",
+          "body": "你是不是专门绕过去看它的？",
+          "senderId": "owner",
+          "time": "2026-12-04 18:23",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "wx-1204-04",
+          "title": "苏新皓",
+          "body": "被发现了。它比我想象中还不怕人。",
+          "senderId": "su",
+          "time": "2026-12-04 18:26",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "wx-1205-02",
+          "title": "苏新皓",
+          "body": "今天路上听到有人放那首歌，突然想起你。",
+          "senderId": "owner",
+          "time": "2026-12-05 20:16",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "wx-1205-03",
+          "title": "苏新皓",
+          "body": "哪首？",
+          "senderId": "su",
+          "time": "2026-12-05 20:17",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "wx-1205-04",
+          "title": "苏新皓",
+          "body": "《一天一天》。可能只是因为最近总在听。",
+          "senderId": "owner",
+          "time": "2026-12-05 20:19",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "wx-1205-05",
+          "title": "苏新皓",
+          "body": "我也听过。下次你听的时候告诉我，看看我会不会也有感觉。",
+          "senderId": "su",
+          "time": "2026-12-05 20:22",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "wx-1206-extra-01",
+          "title": "苏新皓",
+          "body": "我今天试着没去想那种感觉。结果反而一直在看手机。",
+          "senderId": "su",
+          "time": "2026-12-06 22:42",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "wx-1206-extra-02",
+          "title": "苏新皓",
+          "body": "你有没有觉得，我们最近好像把它当成每天都要确认的事了？",
+          "senderId": "su",
+          "time": "2026-12-06 22:46",
+          "hidden": true,
+          "read": false
         }
       ]
     },
@@ -377,6 +530,96 @@
           "assetKey": "video-01",
           "caption": "短视频"
         }
+      },
+      {
+        "id": "album-photo-07",
+        "title": " ",
+        "body": "",
+        "time": "2026-12-06 08:12",
+        "sender": "light",
+        "hidden": true,
+        "kind": "image",
+        "media": "",
+        "folder": "相机胶卷",
+        "meta": {
+          "assetKey": "photo-07",
+          "caption": "窗边的光"
+        }
+      },
+      {
+        "id": "album-photo-08",
+        "title": " ",
+        "body": "",
+        "time": "2026-12-06 12:06",
+        "sender": "light",
+        "hidden": true,
+        "kind": "image",
+        "media": "",
+        "folder": "相机胶卷",
+        "meta": {
+          "assetKey": "photo-08",
+          "caption": "便利店门口"
+        }
+      },
+      {
+        "id": "album-photo-09",
+        "title": " ",
+        "body": "",
+        "time": "2026-12-06 16:45",
+        "sender": "light",
+        "hidden": true,
+        "kind": "image",
+        "media": "",
+        "folder": "相机胶卷",
+        "meta": {
+          "assetKey": "photo-09",
+          "caption": "树影"
+        }
+      },
+      {
+        "id": "album-photo-10",
+        "title": " ",
+        "body": "",
+        "time": "2026-12-07 07:31",
+        "sender": "light",
+        "hidden": true,
+        "kind": "image",
+        "media": "",
+        "folder": "相机胶卷",
+        "meta": {
+          "assetKey": "photo-10",
+          "caption": "清晨的天空"
+        }
+      },
+      {
+        "id": "album-photo-11",
+        "title": " ",
+        "body": "",
+        "time": "2026-12-07 10:18",
+        "sender": "light",
+        "hidden": true,
+        "kind": "image",
+        "media": "",
+        "folder": "相机胶卷",
+        "meta": {
+          "assetKey": "photo-11",
+          "caption": "回家的路"
+        }
+      },
+      {
+        "id": "album-photo-12",
+        "title": " ",
+        "body": "",
+        "time": "2026-12-07 18:52",
+        "sender": "light",
+        "hidden": true,
+        "kind": "image",
+        "media": "",
+        "folder": "相机胶卷",
+        "meta": {
+          "assetKey": "photo-12",
+          "caption": "傍晚"
+        }
       }
     ],
     "notes": [
@@ -415,6 +658,15 @@
         "sender": "light",
         "folder": "备忘录",
         "hidden": true
+      },
+      {
+        "id": "note-quiet",
+        "title": "如果有一天不再同步",
+        "body": "今天试着不去确认他的状态。\n没有疼痛，也没有突然涌来的情绪。\n手机安静了很久，我却还是点开了对话框。\n原来习惯一个人，不一定需要什么特别的理由。",
+        "time": "2026-12-06 22:18",
+        "sender": "light",
+        "hidden": true,
+        "folder": "备忘录"
       }
     ],
     "safari": [
@@ -476,6 +728,32 @@
         "meta": {
           "ip": "北京"
         }
+      },
+      {
+        "id": "wb-03",
+        "title": "今天没有下雨",
+        "body": "本来想拍一张路边的树，最后相册里全是没对上焦的灯。有人说照片拍糊了也没关系。",
+        "time": "2026-12-06 22:31",
+        "sender": "light",
+        "hidden": true,
+        "kind": "post",
+        "folder": "我的微博",
+        "meta": {
+          "ip": "北京"
+        }
+      },
+      {
+        "id": "wb-04",
+        "title": "早一点睡",
+        "body": "这几天总是醒得很早。今天决定不等消息了。明天还有很多事要做。",
+        "time": "2026-12-07 00:12",
+        "sender": "light",
+        "hidden": true,
+        "kind": "post",
+        "folder": "我的微博",
+        "meta": {
+          "ip": "北京"
+        }
       }
     ],
     "phone": [
@@ -502,6 +780,102 @@
           "status": "未接",
           "number": ""
         }
+      },
+      {
+        "id": "call-03",
+        "title": "苏新皓",
+        "body": "未接来电",
+        "time": "2026-11-30 19:37",
+        "sender": "苏新皓",
+        "kind": "call",
+        "meta": {
+          "status": "未接",
+          "number": ""
+        }
+      },
+      {
+        "id": "call-04",
+        "title": "苏新皓",
+        "body": "未接来电",
+        "time": "2026-11-30 19:38",
+        "sender": "苏新皓",
+        "kind": "call",
+        "meta": {
+          "status": "未接",
+          "number": ""
+        }
+      },
+      {
+        "id": "call-05",
+        "title": "苏新皓",
+        "body": "未接来电",
+        "time": "2026-11-30 19:40",
+        "sender": "苏新皓",
+        "kind": "call",
+        "meta": {
+          "status": "未接",
+          "number": ""
+        }
+      },
+      {
+        "id": "call-06",
+        "title": "苏新皓",
+        "body": "未接来电",
+        "time": "2026-11-30 19:42",
+        "sender": "苏新皓",
+        "kind": "call",
+        "meta": {
+          "status": "未接",
+          "number": ""
+        }
+      },
+      {
+        "id": "call-07",
+        "title": "苏新皓",
+        "body": "未接来电",
+        "time": "2026-11-30 19:43",
+        "sender": "苏新皓",
+        "kind": "call",
+        "meta": {
+          "status": "未接",
+          "number": ""
+        }
+      },
+      {
+        "id": "call-08",
+        "title": "苏新皓",
+        "body": "未接来电",
+        "time": "2026-11-30 19:45",
+        "sender": "苏新皓",
+        "kind": "call",
+        "meta": {
+          "status": "未接",
+          "number": ""
+        }
+      },
+      {
+        "id": "call-09",
+        "title": "苏新皓",
+        "body": "未接来电",
+        "time": "2026-11-30 19:46",
+        "sender": "苏新皓",
+        "kind": "call",
+        "meta": {
+          "status": "未接",
+          "number": ""
+        }
+      },
+      {
+        "id": "call-10",
+        "title": "苏新皓",
+        "body": "未接来电",
+        "time": "2026-11-30 19:48",
+        "sender": "苏新皓",
+        "kind": "call",
+        "meta": {
+          "status": "未接",
+          "number": ""
+        }
       }
     ],
     "calendar": [
@@ -514,6 +888,140 @@
         "kind": "event",
         "meta": {
           "location": "提醒"
+        }
+      },
+      {
+        "id": "cal-02",
+        "title": "把周末空出来",
+        "body": "没有写具体安排。备注：如果他有空，想把那家便利店附近走一遍。",
+        "time": "2026-12-05 21:02",
+        "sender": "light",
+        "hidden": true,
+        "kind": "event",
+        "meta": {
+          "location": "未设置",
+          "calendar": "个人"
+        }
+      },
+      {
+        "id": "cal-03",
+        "title": "归还借来的伞",
+        "body": "备注：那天他把伞往我这边偏了很多，自己半边肩膀都湿了。",
+        "time": "2026-12-06 08:30",
+        "sender": "light",
+        "hidden": true,
+        "kind": "event",
+        "meta": {
+          "location": "便利店附近",
+          "calendar": "个人"
+        }
+      }
+    ],
+    "reminders": [
+      {
+        "id": "rem-01",
+        "title": "把那句话问清楚",
+        "body": "如果共感真的会消失，要不要提前告诉他？",
+        "time": "2026-12-06 09:00",
+        "sender": "light",
+        "hidden": true,
+        "kind": "note",
+        "meta": {
+          "list": "今天",
+          "completed": "false"
+        }
+      },
+      {
+        "id": "rem-02",
+        "title": "记得吃饭",
+        "body": "不要因为等消息就忘记吃东西。",
+        "time": "2026-12-06 12:30",
+        "sender": "light",
+        "hidden": true,
+        "kind": "note",
+        "meta": {
+          "list": "生活",
+          "completed": "true"
+        }
+      }
+    ],
+    "music": [
+      {
+        "id": "music-01",
+        "title": "一天一天",
+        "body": "最近播放。听到副歌时，手腕有一瞬间轻轻发热。也许只是记忆在作怪。",
+        "time": "2026-12-06 13:14",
+        "sender": "苏新皓",
+        "hidden": true,
+        "kind": "audio",
+        "meta": {
+          "artist": "苏新皓",
+          "duration": "00:30",
+          "source": "最近播放"
+        }
+      }
+    ],
+    "maps": [
+      {
+        "id": "maps-01",
+        "title": "便利店",
+        "body": "最近搜索的地点。路线停留在步行导航页面，没有开始导航。",
+        "time": "2026-12-06 15:08",
+        "sender": "light",
+        "hidden": true,
+        "kind": "note",
+        "meta": {
+          "address": "初遇地点附近",
+          "category": "便利店",
+          "search": "步行路线"
+        }
+      }
+    ],
+    "weather": [
+      {
+        "id": "weather-01",
+        "title": "北京天气",
+        "body": "傍晚有零星小雨。备注：看到降雨提醒时，忽然想起那天共用的一把伞。",
+        "time": "2026-12-06 16:00",
+        "sender": "light",
+        "hidden": true,
+        "kind": "note",
+        "meta": {
+          "city": "北京",
+          "condition": "小雨",
+          "temperature": "9°C"
+        }
+      }
+    ],
+    "clock": [
+      {
+        "id": "clock-01",
+        "title": "07:30",
+        "body": "工作日闹钟。最近几天都比闹钟先醒。",
+        "time": "2026-12-07 07:30",
+        "sender": "light",
+        "hidden": true,
+        "kind": "event",
+        "meta": {
+          "alarm": "07:30",
+          "repeat": "工作日",
+          "enabled": "true"
+        }
+      }
+    ],
+    "files": [
+      {
+        "id": "file-01",
+        "title": "12月06日_语音备忘",
+        "body": "录音时长 00:08。背景里有很轻的风声，最后像是有人说了一句“明天见”。",
+        "time": "2026-12-06 19:42",
+        "sender": "light",
+        "hidden": true,
+        "kind": "audio",
+        "folder": "语音备忘录",
+        "meta": {
+          "duration": "00:08",
+          "format": "M4A"
         }
       }
     ]
@@ -694,6 +1202,266 @@
       "actions": [
         {
           "type": "unlock",
+          "key": "cal-02",
+          "value": true
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "ev-13",
+      "label": "周末的空白日程",
+      "type": "event",
+      "event": "read",
+      "target": "cal-02",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "cal-03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "rem-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "wx-1202-02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "wx-1202-03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "wx-1202-04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "wx-1202-05",
+          "value": true
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "ev-14",
+      "label": "提醒事项",
+      "type": "event",
+      "event": "read",
+      "target": "rem-01",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "rem-02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "music-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "wx-1203-02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "wx-1203-03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "wx-1203-04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "wx-1203-05",
+          "value": true
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "ev-15",
+      "label": "最近播放",
+      "type": "event",
+      "event": "read",
+      "target": "music-01",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "maps-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "wx-1204-02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "wx-1204-03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "wx-1204-04",
+          "value": true
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "ev-16",
+      "label": "地图上的旧地点",
+      "type": "event",
+      "event": "read",
+      "target": "maps-01",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "weather-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "album-photo-07",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "album-photo-08",
+          "value": true
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "ev-17",
+      "label": "天气提醒",
+      "type": "event",
+      "event": "read",
+      "target": "weather-01",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "file-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "album-photo-09",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "album-photo-10",
+          "value": true
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "ev-18",
+      "label": "语音备忘录",
+      "type": "event",
+      "event": "read",
+      "target": "file-01",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "note-quiet",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "album-photo-11",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "album-photo-12",
+          "value": true
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "ev-19",
+      "label": "不再确认",
+      "type": "event",
+      "event": "read",
+      "target": "note-quiet",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "wb-03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "wb-04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "clock-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "wx-1205-02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "wx-1205-03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "wx-1205-04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "wx-1205-05",
+          "value": true
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "ev-20",
+      "label": "习惯的重量",
+      "type": "event",
+      "event": "read",
+      "target": "wx-1206-extra-01",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "wx-1206-extra-02",
+          "value": true
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "ev-21",
+      "label": "说出口的担心",
+      "type": "event",
+      "event": "read",
+      "target": "wx-1206-extra-02",
+      "actions": [
+        {
+          "type": "unlock",
           "key": "wx-1206-01",
           "value": true
         }
@@ -777,6 +1545,42 @@
         },
         {
           "event": "read",
+          "target": "cal-02"
+        },
+        {
+          "event": "read",
+          "target": "rem-01"
+        },
+        {
+          "event": "read",
+          "target": "music-01"
+        },
+        {
+          "event": "read",
+          "target": "maps-01"
+        },
+        {
+          "event": "read",
+          "target": "weather-01"
+        },
+        {
+          "event": "read",
+          "target": "file-01"
+        },
+        {
+          "event": "read",
+          "target": "note-quiet"
+        },
+        {
+          "event": "read",
+          "target": "wx-1206-extra-01"
+        },
+        {
+          "event": "read",
+          "target": "wx-1206-extra-02"
+        },
+        {
+          "event": "read",
           "target": "wx-1206-01"
         },
         {
@@ -797,7 +1601,27 @@
         "wx-1204-01",
         "wx-1205-01",
         "wx-1206-01",
-        "wx-1207-01"
+        "wx-1207-01",
+        "cal-02",
+        "cal-03",
+        "rem-01",
+        "rem-02",
+        "music-01",
+        "maps-01",
+        "weather-01",
+        "file-01",
+        "note-quiet",
+        "wb-03",
+        "wb-04",
+        "clock-01",
+        "album-photo-07",
+        "album-photo-08",
+        "album-photo-09",
+        "album-photo-10",
+        "album-photo-11",
+        "album-photo-12",
+        "wx-1206-extra-01",
+        "wx-1206-extra-02"
       ]
     }
   ]
