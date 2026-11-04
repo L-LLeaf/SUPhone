@@ -6,7 +6,7 @@ export const widgetSchema = z.object({
     .string()
     .regex(/^widget-[a-zA-Z0-9-]+$/)
     .max(80),
-  type: z.enum(["calendar", "clock", "weather", "notes", "battery"]),
+  type: z.enum(["calendar", "clock", "weather", "notes", "battery", "quote"]),
   size: z.enum(["small", "medium", "large"]),
 });
 export const layoutSchema = z
@@ -65,8 +65,8 @@ export function defaultLayout(input: Work): DeviceLayout {
           ? { ...a, installed: true, visible: true, folder: "", dock: false }
           : a,
       ),
-    widgets: [],
-    order: [],
+    widgets: w.id === "light-empathy-phone" ? [{ id: "widget-daily-quote", type: "quote", size: "medium" }] : [],
+    order: w.id === "light-empathy-phone" ? ["widget-daily-quote"] : [],
     cleared: [],
     positions: {},
   };
@@ -117,6 +117,11 @@ export function validateLayout(raw: unknown, input: Work) {
       ...layout.order.filter((id) => !visibleApps.includes(id)),
     ];
     layout.previewLayoutRevision = 1;
+  }
+  if (w.id === "light-empathy-phone" && !layout.widgets.some((widget) => widget.type === "quote")) {
+    layout.widgets.unshift({ id: "widget-daily-quote", type: "quote", size: "medium" });
+    layout.order = ["widget-daily-quote", ...layout.order.filter((id) => id !== "widget-daily-quote")];
+    delete layout.positions["widget-daily-quote"];
   }
   const entries = homeEntries(layout),
     packed = packHome(entries, layout.positions);
