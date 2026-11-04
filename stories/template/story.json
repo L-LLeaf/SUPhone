@@ -38,19 +38,22 @@
       "id": "su",
       "name": "苏新皓",
       "phone": "",
-      "bio": "微信联系人"
+      "bio": "微信联系人",
+      "avatar": ""
     },
     {
       "id": "cheng",
       "name": "阿澄",
       "phone": "",
-      "bio": "朋友"
+      "bio": "朋友",
+      "avatar": ""
     },
     {
       "id": "mom",
       "name": "妈妈",
       "phone": "",
-      "bio": "家人"
+      "bio": "家人",
+      "avatar": ""
     }
   ],
   "chats": [
