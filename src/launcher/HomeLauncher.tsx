@@ -53,6 +53,7 @@ const widgetApp = {
   weather: "weather",
   notes: "notes",
   battery: "settings",
+  quote: "",
 };
 function WidgetFace({
   widget,
