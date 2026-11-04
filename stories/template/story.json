@@ -632,11 +632,6 @@
           "type": "unlock",
           "key": "album-photo-05",
           "value": true
-        },
-        {
-          "type": "note",
-          "key": "note-day",
-          "value": true
         }
       ],
       "next": []
