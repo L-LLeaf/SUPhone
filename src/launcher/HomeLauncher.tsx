@@ -45,6 +45,7 @@ const widgetLabels = {
   weather: "天气",
   notes: "备忘录",
   battery: "电池",
+  quote: "每日一句",
 };
 const widgetApp = {
   calendar: "calendar",
@@ -103,12 +104,23 @@ function WidgetFace({
             <small>无备忘录</small>
           )}
         </>
-      ) : (
+      ) : widget.type === "battery" ? (
         <>
           <Battery size={44} />
           <b>{work.phone.battery}%</b>
           <small>电池</small>
         </>
+      ) : (
+        <div className="daily-quote-content">
+          <span className="daily-quote-kicker">DAILY QUOTE · 每日一句</span>
+          <strong>只缘感君一回顾，<br />使我思君朝与暮。</strong>
+          <span className="daily-quote-footer">一眼万年 · 朝暮相思</span>
+          <svg className="daily-quote-branch" viewBox="0 0 150 170" aria-hidden="true">
+            <path d="M83 158 C72 126 79 91 66 56 C61 42 52 29 39 17 M72 91 C91 75 103 56 109 34 M67 63 C49 62 36 54 27 41 M76 108 C98 101 115 88 126 70 M61 43 C70 32 77 20 79 7 M86 133 C105 132 122 123 137 109" />
+            <path d="M39 17 l-1 15 M39 17 l14 4 M109 34 l-13 4 M109 34 l-2 -14 M27 41 l13 -1 M27 41 l-4 -12 M126 70 l-14 1 M126 70 l5 -13 M79 7 l-9 11 M79 7 l11 8 M137 109 l-13 -3 M137 109 l-1 13" />
+            <path d="M17 156 Q43 164 67 156 L61 133 Q42 140 23 133 Z M93 158 Q114 166 136 156 L131 137 Q113 143 98 137 Z" />
+          </svg>
+        </div>
       )}
     </div>
   );
@@ -128,7 +140,7 @@ export function HomeLauncher(p: Props) {
       x: number;
       y: number;
     } | null>(null),
-    [widgetType, setWidgetType] = useState<Widget["type"]>("calendar"),
+    [widgetType, setWidgetType] = useState<Widget["type"]>("quote"),
     [size, setSize] = useState<Widget["size"]>("small");
   const root = useRef<HTMLDivElement>(null),
     pager = useRef<HTMLDivElement>(null),
@@ -425,7 +437,7 @@ export function HomeLauncher(p: Props) {
     }
     if (entry.app) p.open(entry.app.id);
     else if (entry.folder) p.onFolder(entry.folder);
-    else if (entry.widget) p.open(widgetApp[entry.widget.type]);
+    else if (entry.widget && widgetApp[entry.widget.type]) p.open(widgetApp[entry.widget.type]);
   };
   const cell = (entry: HomeEntry, dock = false) => (
     <button
