@@ -3,7 +3,7 @@
   "id": "light-empathy-phone",
   "title": "同频之间",
   "description": "一部留下了生活痕迹的手机。故事中的私人聊天、日常经历与共感设定均为虚构；涉及现实人物时，不将虚构私生活当作真实信息。",
-  "revision": 3,
+  "revision": 4,
   "phone": {
     "owner": "light",
     "date": "2026-12-01",
@@ -113,7 +113,6 @@
           "body": "我刚刚拿杯子的时候，右手腕突然像被轻轻拧了一下。你那边呢？",
           "senderId": "su",
           "time": "2026-12-01 09:14",
-          "hidden": true,
           "read": false
         },
         {
@@ -122,7 +121,6 @@
           "body": "我也有感觉。我记下时间了，看看是不是同一秒。",
           "senderId": "owner",
           "time": "2026-12-01 09:18",
-          "hidden": true,
           "read": false
         },
         {
@@ -133,7 +131,6 @@
           "time": "2026-12-01 12:22",
           "kind": "image",
           "media": "",
-          "hidden": true,
           "read": false,
           "meta": {
             "assetKey": "photo-01",
@@ -146,7 +143,6 @@
           "body": "今天练习到一半，突然觉得你那边应该也醒着。很奇怪，我居然开始习惯先问你。",
           "senderId": "su",
           "time": "2026-12-02 10:08",
-          "hidden": true,
           "read": false
         },
         {
@@ -155,7 +151,6 @@
           "body": "刚才那一下情绪来得很突然。我没有在想什么，但一下子很难受。你也感觉到了吗？",
           "senderId": "su",
           "time": "2026-12-03 22:41",
-          "hidden": true,
           "read": false
         },
         {
@@ -166,7 +161,6 @@
           "time": "2026-12-04 18:16",
           "kind": "image",
           "media": "",
-          "hidden": true,
           "read": false,
           "meta": {
             "assetKey": "photo-02",
@@ -179,7 +173,6 @@
           "body": "今天路上看到一只很笨的猫。拍得有点糊，还是想给你看。",
           "senderId": "su",
           "time": "2026-12-04 18:17",
-          "hidden": true,
           "read": false
         },
         {
@@ -188,7 +181,6 @@
           "body": "你今天怎么没说话？不是催你。只是看到好笑的东西，第一反应还是想发给你。",
           "senderId": "su",
           "time": "2026-12-05 20:03",
-          "hidden": true,
           "read": false
         },
         {
@@ -197,7 +189,6 @@
           "body": "如果有一天这种感觉突然没有了，我们是不是就不会再这样联系了？",
           "senderId": "su",
           "time": "2026-12-06 23:12",
-          "hidden": true,
           "read": false
         },
         {
@@ -206,7 +197,6 @@
           "body": "今天好像真的没有了。手腕不疼了，心里也安静了。谢谢你这几天一直认真听我说。以后也好好过自己的生活。",
           "senderId": "su",
           "time": "2026-12-07 21:06",
-          "hidden": true,
           "read": false
         },
         {
@@ -215,7 +205,6 @@
           "body": "嗯。你也是。",
           "senderId": "owner",
           "time": "2026-12-07 21:10",
-          "hidden": true,
           "read": false
         },
         {
@@ -224,7 +213,6 @@
           "body": "你今天还疼吗？",
           "senderId": "su",
           "time": "2026-12-02 10:16",
-          "hidden": true,
           "read": false
         },
         {
@@ -233,7 +221,6 @@
           "body": "早上有一点，后来就没了。你呢？",
           "senderId": "owner",
           "time": "2026-12-02 10:19",
-          "hidden": true,
           "read": false
         },
         {
@@ -242,7 +229,6 @@
           "body": "我也是。好像不是一直连着，只有突然的时候才会。",
           "senderId": "su",
           "time": "2026-12-02 10:22",
-          "hidden": true,
           "read": false
         },
         {
@@ -251,7 +237,6 @@
           "body": "那我们先把时间记下来。至少能知道它什么时候出现。",
           "senderId": "owner",
           "time": "2026-12-02 10:25",
-          "hidden": true,
           "read": false
         },
         {
@@ -260,7 +245,6 @@
           "body": "今天有点烦。不是身体疼，是突然觉得什么都做不好。",
           "senderId": "su",
           "time": "2026-12-03 22:46",
-          "hidden": true,
           "read": false
         },
         {
@@ -269,7 +253,6 @@
           "body": "我刚刚也很低落，但我不知道是不是因为你。",
           "senderId": "owner",
           "time": "2026-12-03 22:49",
-          "hidden": true,
           "read": false
         },
         {
@@ -278,7 +261,6 @@
           "body": "如果真的是这样，那我以后心情不好是不是也会影响你？",
           "senderId": "su",
           "time": "2026-12-03 22:52",
-          "hidden": true,
           "read": false
         },
         {
@@ -287,7 +269,6 @@
           "body": "也可能只是我们刚好都累了。先别把所有事都怪到这件事上。",
           "senderId": "owner",
           "time": "2026-12-03 22:55",
-          "hidden": true,
           "read": false
         },
         {
@@ -296,7 +277,6 @@
           "body": "那只猫后来又出现了。我今天路过的时候它还在原地。",
           "senderId": "su",
           "time": "2026-12-04 18:21",
-          "hidden": true,
           "read": false
         },
         {
@@ -305,7 +285,6 @@
           "body": "你是不是专门绕过去看它的？",
           "senderId": "owner",
           "time": "2026-12-04 18:23",
-          "hidden": true,
           "read": false
         },
         {
@@ -314,7 +293,6 @@
           "body": "被发现了。它比我想象中还不怕人。",
           "senderId": "su",
           "time": "2026-12-04 18:26",
-          "hidden": true,
           "read": false
         },
         {
@@ -323,7 +301,6 @@
           "body": "今天路上听到有人放那首歌，突然想起你。",
           "senderId": "owner",
           "time": "2026-12-05 20:16",
-          "hidden": true,
           "read": false
         },
         {
@@ -332,7 +309,6 @@
           "body": "哪首？",
           "senderId": "su",
           "time": "2026-12-05 20:17",
-          "hidden": true,
           "read": false
         },
         {
@@ -341,7 +317,6 @@
           "body": "《一天一天》。可能只是因为最近总在听。",
           "senderId": "owner",
           "time": "2026-12-05 20:19",
-          "hidden": true,
           "read": false
         },
         {
@@ -350,7 +325,6 @@
           "body": "我也听过。下次你听的时候告诉我，看看我会不会也有感觉。",
           "senderId": "su",
           "time": "2026-12-05 20:22",
-          "hidden": true,
           "read": false
         },
         {
@@ -359,7 +333,6 @@
           "body": "我今天试着没去想那种感觉。结果反而一直在看手机。",
           "senderId": "su",
           "time": "2026-12-06 22:42",
-          "hidden": true,
           "read": false
         },
         {
@@ -368,7 +341,6 @@
           "body": "你有没有觉得，我们最近好像把它当成每天都要确认的事了？",
           "senderId": "su",
           "time": "2026-12-06 22:46",
-          "hidden": true,
           "read": false
         }
       ]
@@ -495,7 +467,6 @@
         "time": "2026-12-04 18:16",
         "sender": "light",
         "folder": "相机胶卷",
-        "hidden": true,
         "meta": {
           "assetKey": "photo-05",
           "caption": "后来收到的照片"
@@ -510,7 +481,6 @@
         "time": "2026-12-05 16:28",
         "sender": "light",
         "folder": "相机胶卷",
-        "hidden": true,
         "meta": {
           "assetKey": "photo-06",
           "caption": "日常"
@@ -525,7 +495,6 @@
         "time": "2026-12-05 16:30",
         "sender": "light",
         "folder": "相机胶卷",
-        "hidden": true,
         "meta": {
           "assetKey": "video-01",
           "caption": "短视频"
@@ -537,7 +506,6 @@
         "body": "",
         "time": "2026-12-06 08:12",
         "sender": "light",
-        "hidden": true,
         "kind": "image",
         "media": "",
         "folder": "相机胶卷",
@@ -552,7 +520,6 @@
         "body": "",
         "time": "2026-12-06 12:06",
         "sender": "light",
-        "hidden": true,
         "kind": "image",
         "media": "",
         "folder": "相机胶卷",
@@ -567,7 +534,6 @@
         "body": "",
         "time": "2026-12-06 16:45",
         "sender": "light",
-        "hidden": true,
         "kind": "image",
         "media": "",
         "folder": "相机胶卷",
@@ -582,7 +548,6 @@
         "body": "",
         "time": "2026-12-07 07:31",
         "sender": "light",
-        "hidden": true,
         "kind": "image",
         "media": "",
         "folder": "相机胶卷",
@@ -597,7 +562,6 @@
         "body": "",
         "time": "2026-12-07 10:18",
         "sender": "light",
-        "hidden": true,
         "kind": "image",
         "media": "",
         "folder": "相机胶卷",
@@ -612,7 +576,6 @@
         "body": "",
         "time": "2026-12-07 18:52",
         "sender": "light",
-        "hidden": true,
         "kind": "image",
         "media": "",
         "folder": "相机胶卷",
@@ -665,7 +628,6 @@
         "body": "今天试着不去确认他的状态。\n没有疼痛，也没有突然涌来的情绪。\n手机安静了很久，我却还是点开了对话框。\n原来习惯一个人，不一定需要什么特别的理由。",
         "time": "2026-12-06 22:18",
         "sender": "light",
-        "hidden": true,
         "folder": "备忘录"
       }
     ],
@@ -735,7 +697,6 @@
         "body": "本来想拍一张路边的树，最后相册里全是没对上焦的灯。有人说照片拍糊了也没关系。",
         "time": "2026-12-06 22:31",
         "sender": "light",
-        "hidden": true,
         "kind": "post",
         "folder": "我的微博",
         "meta": {
@@ -748,7 +709,6 @@
         "body": "这几天总是醒得很早。今天决定不等消息了。明天还有很多事要做。",
         "time": "2026-12-07 00:12",
         "sender": "light",
-        "hidden": true,
         "kind": "post",
         "folder": "我的微博",
         "meta": {
@@ -896,7 +856,6 @@
         "body": "没有写具体安排。备注：如果他有空，想把那家便利店附近走一遍。",
         "time": "2026-12-05 21:02",
         "sender": "light",
-        "hidden": true,
         "kind": "event",
         "meta": {
           "location": "未设置",
@@ -909,7 +868,6 @@
         "body": "备注：那天他把伞往我这边偏了很多，自己半边肩膀都湿了。",
         "time": "2026-12-06 08:30",
         "sender": "light",
-        "hidden": true,
         "kind": "event",
         "meta": {
           "location": "便利店附近",
@@ -924,7 +882,6 @@
         "body": "如果共感真的会消失，要不要提前告诉他？",
         "time": "2026-12-06 09:00",
         "sender": "light",
-        "hidden": true,
         "kind": "note",
         "meta": {
           "list": "今天",
@@ -937,7 +894,6 @@
         "body": "不要因为等消息就忘记吃东西。",
         "time": "2026-12-06 12:30",
         "sender": "light",
-        "hidden": true,
         "kind": "note",
         "meta": {
           "list": "生活",
@@ -952,7 +908,6 @@
         "body": "最近播放。听到副歌时，手腕有一瞬间轻轻发热。也许只是记忆在作怪。",
         "time": "2026-12-06 13:14",
         "sender": "苏新皓",
-        "hidden": true,
         "kind": "audio",
         "meta": {
           "artist": "苏新皓",
@@ -968,7 +923,6 @@
         "body": "最近搜索的地点。路线停留在步行导航页面，没有开始导航。",
         "time": "2026-12-06 15:08",
         "sender": "light",
-        "hidden": true,
         "kind": "note",
         "meta": {
           "address": "初遇地点附近",
@@ -984,7 +938,6 @@
         "body": "傍晚有零星小雨。备注：看到降雨提醒时，忽然想起那天共用的一把伞。",
         "time": "2026-12-06 16:00",
         "sender": "light",
-        "hidden": true,
         "kind": "note",
         "meta": {
           "city": "北京",
@@ -1000,7 +953,6 @@
         "body": "工作日闹钟。最近几天都比闹钟先醒。",
         "time": "2026-12-07 07:30",
         "sender": "light",
-        "hidden": true,
         "kind": "event",
         "meta": {
           "alarm": "07:30",
@@ -1016,7 +968,6 @@
         "body": "录音时长 00:08。背景里有很轻的风声，最后像是有人说了一句“明天见”。",
         "time": "2026-12-06 19:42",
         "sender": "light",
-        "hidden": true,
         "kind": "audio",
         "folder": "语音备忘录",
         "meta": {
