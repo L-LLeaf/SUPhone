@@ -3,10 +3,11 @@
   "id": "light-empathy-phone",
   "title": "同频之间",
   "description": "一部留下了生活痕迹的手机。故事中的私人聊天、日常经历与共感设定均为虚构；涉及现实人物时，不将虚构私生活当作真实信息。",
-  "revision": 1,
+  "revision": 2,
   "phone": {
     "owner": "light",
     "date": "2026-12-01",
+    "passcode": "0112",
     "time": "08:00",
     "battery": 99,
     "network": "5G",
